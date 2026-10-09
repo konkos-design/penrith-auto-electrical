@@ -586,3 +586,6 @@ body.loaded .pt span{opacity:0}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
   .rv,.split .w>span{opacity:1;transform:none}
 }
+
+/* prevent sideways scroll from reveal animations */
+main{overflow-x:clip}
